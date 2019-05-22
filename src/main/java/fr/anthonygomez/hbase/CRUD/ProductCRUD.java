@@ -1,4 +1,4 @@
-package fr.anthonygomez.hbase.drivers;
+package fr.anthonygomez.hbase.CRUD;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

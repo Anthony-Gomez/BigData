@@ -4,7 +4,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.util.Bytes;
 
 import fr.anthonygomez.hbase.HBaseCore;
-import fr.anthonygomez.hbase.drivers.ProductCRUD;
+import fr.anthonygomez.hbase.CRUD.ProductCRUD;
 import fr.anthonygomez.models.Product;
 
 public class App 
