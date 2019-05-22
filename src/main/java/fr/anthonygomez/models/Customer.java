@@ -1,4 +1,4 @@
-package fr.anthonygomez.hbase.models;
+package fr.anthonygomez.models;
 
 import java.util.ArrayList;
 import java.util.Collection;

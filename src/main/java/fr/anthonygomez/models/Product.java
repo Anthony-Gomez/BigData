@@ -1,4 +1,4 @@
-package fr.anthonygomez.hbase.models;
+package fr.anthonygomez.models;
 
 public class Product {
 	
