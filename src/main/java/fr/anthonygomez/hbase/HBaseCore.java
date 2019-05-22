@@ -1,26 +1,14 @@
 package fr.anthonygomez.hbase;
 
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.TableName;
 
 public class HBaseCore {
 	
-	private Configuration config;
-	
-	public HBaseCore() {
+	public static void createStructure() {
 		
-		this.config = HBaseConfiguration.create();
-        
-        String path = this.getClass()
-          .getClassLoader()
-          .getResource("hbase-site.xml")
-          .getPath();
-        config.addResource(new Path(path));
+		TableName productTableName = TableName.valueOf("Product");
+		
 	}
 	
-	public Configuration getConfig() {
-		return this.config;
-	}
 
 }
